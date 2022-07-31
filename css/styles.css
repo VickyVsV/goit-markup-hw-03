@@ -24,6 +24,12 @@ body {
   font-style: normal;
 }
 
+image {
+  display: block;
+  min-width: 100%;
+  height: auto;
+}
+
 address {
   font-style: normal;
 }
@@ -169,7 +175,7 @@ address {
 .hero {
   background-color: #2f303a;
   /* text-align: center; */
-  padding-top: 280px;
+  padding-top: 200px;
   padding-bottom: 200px;
 }
 
@@ -266,17 +272,12 @@ address {
   background-color: #f5f4fa;
 }
 
-.team-img {
-  margin-bottom: 30px;
-}
-
 .team-list {
   display: flex;
   column-gap: 30px;
 }
 
 .team-item {
-  padding-bottom: 30px;
   border-radius: 0px 0px 4px 4px;
   background-color: #ffffff;
 }
@@ -299,6 +300,7 @@ address {
   letter-spacing: 0.03em;
   color: var(--main-title-color);
   margin-bottom: 10px;
+  padding-top: 30px;
 }
 
 .team-item-text {
@@ -307,6 +309,7 @@ address {
   text-align: center;
   letter-spacing: 0.03em;
   color: var(--main-text-color);
+  padding-bottom: 30px;
 }
 
 /* -------------- PORTFOLIO ------------*/
@@ -351,11 +354,6 @@ address {
   border-radius: 0px 0px 4px 4px;
   border: 1px solid #eeeeee;
   border-top: none;
-}
-
-.portfolio-img {
-  display: block;
-  max-width: 100%;
 }
 
 .portfolio-title {
